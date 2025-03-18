@@ -62,7 +62,21 @@ git branch
 
 git checkout criacao_txt
 
+git status
 
+git add .
+
+git status
+
+git commit -m "Criação Comandos txt"
+
+git checkout main
+
+git merge criacao_txt
+
+git push
+
+exit
 
 
 
