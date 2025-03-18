@@ -1,0 +1,81 @@
+ls
+
+cd Documents/
+
+ls
+
+mkdir lucas
+
+ls
+
+cd lucas/
+
+ls
+
+git init
+
+git remote add origin https://github.com/LckzUp/lucas.git
+
+git branch -M main
+
+git status
+
+git add .
+ 
+git status
+
+git config user.name "LckzUp"
+
+git config user.email "lucas.pinto17@escola.pr.gov.br"
+
+git config --list
+
+git commit -m "primeiro commit"
+
+git push -u origin main
+
+git branch "basico_index"
+
+git branch
+
+git checkout basico_index
+
+code .
+
+git status
+
+git add .
+
+git status
+
+git commit -m "Criação basico index"
+
+git checkout main
+
+git merge basico_index
+
+git push
+
+git branch "criacao_txt"
+
+git branch
+
+git checkout criacao_txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
